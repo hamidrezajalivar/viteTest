@@ -23,7 +23,20 @@ const Header = ({title}:string) => {
     Pitch
   </button>
 </section>
+<form>
+<label>
+  Username
+  <input placeholder="firstName"/>
+</label>
+<label>
+  Username2
+  <textarea></textarea>
+</label>
 
+</form>
+<div data-testid="visibility-hidden" style={{opacity: 0}}>
+  Visibility Hidden Example
+</div>
         </header>
      );
 }
